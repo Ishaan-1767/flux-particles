@@ -1,0 +1,25 @@
+/* Optional: Add any additional custom styles here */
+
+.canvas-root {
+  display: block;
+  cursor: crosshair;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+input[type="range"],
+input[type="checkbox"] {
+  transition: all 0.2s ease;
+}
+
+/* Add glow effect to active elements */
+button:active {
+  filter: brightness(1.2);
+}
+
+/* Optional: Add custom focus styles */
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid rgba(96, 165, 250, 0.5);
+  outline-offset: 2px;
+}
